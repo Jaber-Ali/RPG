@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "yzEEc4IflyHoTWK7f0v2ROhmXUqLSgW0nfWPC/L9zD6DNZkXmBuxlCH1u6CayRxkg7eQEmjpQ7+V6kBgnQ/V5g==",
-  "success": false,
+  "dgSpecHash": "n/IwJJk2DRyIGbDJbTbiJeQDPzx39YrsmOR65KM84y9BoLlYVehVwy/3M474n9xJwAeqmd59Jc7srPrSP/qGNA==",
+  "success": true,
   "projectFilePath": "C:\\Users\\jabali\\source\\repos\\RPG\\RPGTest\\RPGTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jabali\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
@@ -97,15 +97,5 @@
     "C:\\Users\\jabali\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\jabali\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\jabali\\source\\repos\\RPG\\RPG\\RPG.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\jabali\\source\\repos\\RPG\\RPG\\RPG.csproj",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

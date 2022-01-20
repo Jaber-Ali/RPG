@@ -1670,6 +1670,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "RPG/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/RPG.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RPG.dll": {}
+        }
       }
     }
   },
@@ -5962,12 +5972,17 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "RPG/1.0.0": {
+      "type": "project",
+      "path": "../RPG.csproj",
+      "msbuildProject": "../RPG.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "C:\\Users\\jabali\\source\\repos\\RPG\\RPG\\RPG.csproj",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
+      "RPG >= 1.0.0",
       "coverlet.collector >= 3.1.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -6005,8 +6020,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\jabali\\source\\repos\\RPG\\RPG\\RPG.csproj": {
-              "projectPath": "C:\\Users\\jabali\\source\\repos\\RPG\\RPG\\RPG.csproj"
+            "C:\\Users\\jabali\\source\\repos\\RPG\\RPG.csproj": {
+              "projectPath": "C:\\Users\\jabali\\source\\repos\\RPG\\RPG.csproj"
             }
           }
         }
@@ -6060,16 +6075,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\jabali\\source\\repos\\RPG\\RPG\\RPG.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\jabali\\source\\repos\\RPG\\RPG\\RPG.csproj",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }

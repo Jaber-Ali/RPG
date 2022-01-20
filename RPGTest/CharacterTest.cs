@@ -1,4 +1,5 @@
-﻿using RPG.attributes;
+﻿
+using RPG.attributes;
 using RPG.characters;
 using System;
 using Xunit;

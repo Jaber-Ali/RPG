@@ -17,7 +17,7 @@ namespace RPG
             Weapon textAxe = new Weapon()
             {
                 Name = "common Axe",
-                RequiredLevel = 1,
+                ItemLevel = 1,
                 ItemSlot = Character.Slot.WEAPON,
                 weaponType = Weapon.WeaponType.AXE,
                 BaseDamage = 7, AttackSpeed = 1.1 
@@ -27,7 +27,7 @@ namespace RPG
             Armor testPlateBody = new Armor()
             {
                 Name = "Common plate body armor",
-                RequiredLevel = 1,
+                ItemLevel = 1,
                 ItemSlot = Character.Slot.BODY,
                 armorType = Armor.ArmorType.PLATE,
                 Attributes = new PrimaryAttributes() { Strength = 1 }
@@ -36,7 +36,7 @@ namespace RPG
             Weapon testBow = new Weapon()
             {
                 Name = "Common bow",
-                RequiredLevel = 1,
+                ItemLevel = 1,
                 ItemSlot = Character.Slot.WEAPON,
                 weaponType = Weapon.WeaponType.BOW,
                 BaseDamage = 12,
@@ -45,7 +45,7 @@ namespace RPG
             Armor testClothHead = new Armor()
             {
                 Name = "Common cloth head armor",
-                RequiredLevel = 1,
+                ItemLevel = 1,
                 ItemSlot = Character.Slot.BODY,
                 armorType = Armor.ArmorType.CLOTH,
                 Attributes = new PrimaryAttributes() { Intelligence = 5 }

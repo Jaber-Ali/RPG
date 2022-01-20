@@ -5,7 +5,17 @@
       "ProjectGuid": "d89c778a-69f3-4124-a8e8-d15693149583",
       "DisplayName": "RPGTest",
       "ColorIndex": 0
+    },
+    "97169565-e282-49fa-8774-00b09cba49be": {
+      "ProjectGuid": "97169565-e282-49fa-8774-00b09cba49be",
+      "DisplayName": "RPG",
+      "ColorIndex": 1
+    },
+    "25afb17d-a3db-49c6-8981-e667ba32a2d5": {
+      "ProjectGuid": "25afb17d-a3db-49c6-8981-e667ba32a2d5",
+      "DisplayName": "RPGTest",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

@@ -10,7 +10,7 @@ namespace RPG.items
     public abstract class Item
     {
         public string Name { get; set; }
-        public int RequiredLevel { get; set; }
+        public int ItemLevel { get; set; }
         public Character.Slot ItemSlot { get; set; }
 
         public string GetName()
@@ -23,11 +23,11 @@ namespace RPG.items
         }
         public int GetLevel()
         {
-            return RequiredLevel;
+            return ItemLevel;
         }
         public void SetLevel(int requiredLevel)
         {
-            this.RequiredLevel = requiredLevel;
+            this.ItemLevel = requiredLevel;
         }
 
         public Character.Slot GetSlot()
