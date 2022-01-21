@@ -35,7 +35,7 @@ namespace RPG.characters
         {
             if (weapon.weaponType != Weapon.WeaponType.STAFF && weapon.weaponType != Weapon.WeaponType.WAND)
             {
-                throw new InvalidWeaponException("");
+                throw new InvalidWeaponException("Invalid Weapon. You Cannot equip!");
             }
                
         }
@@ -44,7 +44,7 @@ namespace RPG.characters
         {
             if (armor.armorType != Armor.ArmorType.CLOTH)
             {
-                throw new InvalidArmorException("");
+                throw new InvalidArmorException("Invalid Armor. You Cannot equip!");
             }
         }
 

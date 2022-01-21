@@ -36,7 +36,7 @@ namespace RPG.characters
         {
             if (weapon.weaponType != Weapon.WeaponType.AXE && weapon.weaponType != Weapon.WeaponType.HAMMER && weapon.weaponType != Weapon.WeaponType.SWORD)
             {
-                throw new InvalidWeaponException("Invalid Weapon. You Cannot equip!"); //--------
+                throw new InvalidWeaponException("Invalid Weapon. You Cannot equip!"); 
             }
 
         }
@@ -45,7 +45,7 @@ namespace RPG.characters
         {
             if (armor.armorType != Armor.ArmorType.MAIL && armor.armorType != Armor.ArmorType.PLATE)
             {
-                throw new InvalidArmorException("Invalid Armor. You Cannot equip!"); //------------
+                throw new InvalidArmorException("Invalid Armor. You Cannot equip!"); 
             }
         }
     }

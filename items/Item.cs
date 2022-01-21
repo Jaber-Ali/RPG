@@ -9,8 +9,8 @@ namespace RPG.items
 {
     public abstract class Item
     {
-        public string Name { get; set; }
-        public int ItemLevel { get; set; }
+        public string Name { get;  set; }
+        public int ItemLevel { get;  set; }
         public Character.Slot ItemSlot { get; set; }
 
         public string GetName()
