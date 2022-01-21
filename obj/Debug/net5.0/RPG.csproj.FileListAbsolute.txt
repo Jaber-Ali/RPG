@@ -45,3 +45,4 @@ C:\Users\jabali\source\repos\RPG\obj\Debug\net5.0\RPG.dll
 C:\Users\jabali\source\repos\RPG\obj\Debug\net5.0\ref\RPG.dll
 C:\Users\jabali\source\repos\RPG\obj\Debug\net5.0\RPG.pdb
 C:\Users\jabali\source\repos\RPG\obj\Debug\net5.0\RPG.genruntimeconfig.cache
+C:\Users\jabali\source\repos\RPG\obj\Debug\net5.0\RPG.csproj.AssemblyReference.cache

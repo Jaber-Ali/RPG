@@ -113,7 +113,7 @@ namespace RPG.characters
         {
             if (weapon.GetLevel() > Level)
             {
-                throw new InvalidWeaponException("too low to equip this weapon"); 
+                throw new InvalidWeaponException("exception"); 
             }
             TryEquipWeapon(weapon);
             equipment[weapon.GetSlot()] = weapon;
@@ -128,7 +128,7 @@ namespace RPG.characters
         {
             if (armor.GetLevel() > Level)
             {
-                throw new InvalidArmorException("too low to equip this armor"); 
+                throw new InvalidArmorException("exception"); 
             }
             TryEquipArmor(armor);
             equipment[armor.GetSlot()] = armor;

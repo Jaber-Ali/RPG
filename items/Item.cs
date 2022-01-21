@@ -13,21 +13,9 @@ namespace RPG.items
         public int ItemLevel { get;  set; }
         public Character.Slot ItemSlot { get; set; }
 
-        public string GetName()
-        {
-            return Name;
-        }
-        public void SetName(string name)
-        {
-            this.Name = name;
-        }
         public int GetLevel()
         {
             return ItemLevel;
-        }
-        public void SetLevel(int requiredLevel)
-        {
-            this.ItemLevel = requiredLevel;
         }
 
         public Character.Slot GetSlot()
